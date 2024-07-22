@@ -18,11 +18,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($datos as $departamentos): ?>
+                    <?php foreach($datos as $depar): ?>
                         <tr>
-                            <td><?php echo $departamentos[ 'cod_depto'];?></td>
-                            <td><?php echo $departamentos[ 'nombre_depto'];?></td>
-                            <td><?php echo $departamentos[ 'cod_region'];?></td>
+                            <td><?php echo $depar[ 'cod_depto'];?></td>
+                            <td><?php echo $depar[ 'nombre_depto'];?></td>
+                            <td><?php echo $depar[ 'cod_region'];?></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>

@@ -5,6 +5,7 @@
         class MunicipiosModel extends Model
         {
             protected $table ='municipios';
+            protected $primarykey ='cod_muni';
             protected $allowedFields = [
                 'cod_muni', 'nombre_municipio', 'cod_depto',
             ];

@@ -3,7 +3,7 @@
     namespace App\Controllers;
     use App\Models\NivelesAcademicosModel;
 
-        class NivelesacademicosController extends BaseController
+        class NivelesacAdemicosController extends BaseController
             {
                 public function index(): string
                     {

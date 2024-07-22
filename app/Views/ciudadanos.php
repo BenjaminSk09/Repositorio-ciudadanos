@@ -28,17 +28,17 @@
             <tbody>
                 <?php foreach($datos as $municipios): ?>
                     <tr>
-                        <td><?php echo $municipios[ 'dpi'];?></td>
-                        <td><?php echo $municipios[ 'apellido'];?></td>
-                        <td><?php echo $municipios[ 'nombre'];?></td>
-                        <td><?php echo $municipios[ 'direccion'];?></td>
-                        <td><?php echo $municipios[ 'tel_casa'];?></td>
-                        <td><?php echo $municipios[ 'tel_movil'];?></td> 
-                        <td><?php echo $municipios[ 'email'];?></td>
-                        <td><?php echo $municipios[ 'fecha_nac'];?></td> 
-                        <td><?php echo $municipios[ 'cod_nivel_acad'];?></td>
-                        <td><?php echo $municipios[ 'cod_muni'];?></td>
-                        <td><?php echo $municipios[ 'contra'];?></td>
+                        <td><?php echo $municipios['dpi'];?></td>
+                        <td><?php echo $municipios['apellido'];?></td>
+                        <td><?php echo $municipios['nombre'];?></td>
+                        <td><?php echo $municipios['direccion'];?></td>
+                        <td><?php echo $municipios['tel_casa'];?></td>
+                        <td><?php echo $municipios['tel_movil'];?></td> 
+                        <td><?php echo $municipios['email'];?></td>
+                        <td><?php echo $municipios['fechanac'];?></td> 
+                        <td><?php echo $municipios['cod_nivel_acad'];?></td>
+                        <td><?php echo $municipios['cod_muni'];?></td>
+                        <td><?php echo $municipios['contra'];?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>

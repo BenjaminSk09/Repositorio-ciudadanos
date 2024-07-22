@@ -5,6 +5,7 @@
             class RegionesModel extends Model
             {
                 protected $table            = 'regiones';
+                protected $primarykey ='cod_region';
                 protected $allowedFields    = [
                   'cod_region', 'nombre', 'descripcion',];
             }
