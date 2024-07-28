@@ -1,3 +1,14 @@
+Para poder visualizar cada una de las vistas 
+debera utilizar el nombre de las rutas
+
+niveles
+ciudadano
+region
+municipios
+departamentos
+
+
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
